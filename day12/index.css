@@ -1,0 +1,42 @@
+.links:hover{
+    color: aqua;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+a:links{
+    color: rgb(20, 219, 60);
+}
+.main{
+    display: block;
+    background-color: aquamarine;
+}
+div > h1 {
+    color: blue;
+
+}
+p{
+    font-size: 50px;
+}
+h1::after{
+    content: url(https://images.unsplash.com/photo-1716855159790-0bbff6e7b8ae?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4fHx8ZW58MHx8fHx8);
+}
+h1::first-letter{
+    color: brown;
+    font-size: 30px;
+}
+p::first-line{
+    color: aqua;
+}
+p::first-letter{
+    color: brown;
+}
+section{
+    width: 100vw;
+    height: 500px;
+    background-image: url(https://images.unsplash.com/photo-1717251211808-e1382fc30592?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNXx8fGVufDB8fHx8fA%3D%3D) ;
+    background-attachment:fixed ;
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+

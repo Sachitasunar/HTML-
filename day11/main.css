@@ -1,0 +1,30 @@
+@font-face {
+    font-family: sachita;
+    src: url(./Roboto-Italic.ttf);
+}
+:root{
+    --primarycolor: rgb(110, 87, 87);
+    --fontsize: 16px;
+}
+.fonts{
+    font-family: sachita;
+    width: 250px;
+    height: 300px;
+    overflow: scroll;
+    background-color: var(--primarycolor);
+}
+h1{
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 5px;
+    border-color: aqua;
+    border: 3x dotted red;
+    padding: 59px 0px 0px 0px;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 5px;
+    margin-bottom: 50px;
+}
+.sachita{
+    color: rgb(160, 27, 27) !important;
+}
